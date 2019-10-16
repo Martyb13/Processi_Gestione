@@ -13,7 +13,7 @@ namespace Processi_App
         {
             Console.WriteLine("Esercitazione sulla gestione dei processi");
             //File di testo
-            Process.Start("Notepad.exe");
+            Process.Start("Notepad.exe ");
             //File di testo all'interno del programma
             Process.Start("Notepad.exe", @"\\dc01srv\_Condivisa\INF\4 B\Martina Biagioni\Informatica\Processi_Gestione\Processi_App\Hello_World.txt");
             //Link di una pagina su internet
